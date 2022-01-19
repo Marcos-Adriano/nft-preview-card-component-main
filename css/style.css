@@ -1,7 +1,6 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
     font-family: 'Outfit', sans-serif;
     color: hsla(0, 0%, 100%, 0.85);
 }
@@ -16,11 +15,10 @@ main {
     background-color: hsl(216, 50%, 16%);
     width: 375px;
     align-items: center;
-    max-width: 375px;
-    
-    
+    max-width: 320px;
+    margin: auto;
     border-radius: 20px;
-    justify-content: center;
+    
 }
 
 .container {
@@ -28,20 +26,18 @@ main {
     margin-left: auto;
 }
 
-.firstA {
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .imageNFT {
+    display: block;
     width: 250px;
     border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 1rem auto;
+    
 }
 
 .imageAvatar {
     width: 25px;
+    border-radius: 50%;
+    border: 1px solid hsla(0, 0%, 100%, 0.85);
 }
 
 .nameNFT {
@@ -84,7 +80,7 @@ ul {
 
 .creationAndCreator{
     padding-left: 1rem;
-    border-top: 1px;
+    border-top: 1px solid hsla(0, 0%, 100%, 0.85);
 }
 
 .creator {
