@@ -3,15 +3,96 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Outfit', sans-serif;
+    color: hsla(0, 0%, 100%, 0.85);
 }
 
 body {
-    background-color: burlywood;
+    display: grid;
+    background-color: hsl(217, 54%, 11%);
+    justify-content: center;
 }
 
-container {
-    background-color: chocolate;
-    width: 100%;
+main {
+    background-color: hsl(216, 50%, 16%);
+    width: 375px;
+    align-items: center;
+    max-width: 375px;
+    
+    
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.firstA {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imageNFT {
+    width: 250px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imageAvatar {
+    width: 25px;
+}
+
+.nameNFT {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 1rem;
+    transition: 0.3s ease-in-out;
+}
+
+.nameNFT:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.description {
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0 1rem;
+}
+
+.valueNFT {
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    display:flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+    
+}
+
+.valueAndTime {
+    justify-content: space-between;
+}
+
+.creationAndCreator{
+    padding-left: 1rem;
+    border-top: 1px;
+}
+
+.creator {
+    transition: 0.3s ease-in-out;
+}
+
+.creator:hover{
+    color: hsl(178, 100%, 50%);
 }
 
 
@@ -66,12 +147,10 @@ container {
 
 
 
-
-
-/* .attribution {
-     font-size: 11px; text-align: center; 
+.attribution {
+     font-size: 11px; text-align: center;
 }
 
 .attribution a {
      color: hsl(228, 45%, 44%); 
-} */
+}
